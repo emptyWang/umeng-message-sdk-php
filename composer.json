@@ -1,18 +1,22 @@
 {
-    "name": "sinkcup/umeng-message-sdk-php",
-    "description": "友盟消息推送SDK（PHP composer版）",
-    "type": "library",
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "sinkcup",
-            "homepage": "http://cnblogs.com/sink_cup/",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-0": {
-            "Umeng\\Message\\": "src/"
-        }
+  "name": "emptyWang/umeng-message-sdk-php",
+  "description": "友盟消息推送SDK（PHP 纯粹 composer版 [ 网络请求基于 curl 包 ] ）",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "emptyWang",
+      "homepage": "http://at123.net/",
+      "role": "Developer"
     }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Umeng\\Message\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "curl/curl": "^1.2"
+  }
 }
