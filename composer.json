@@ -1,5 +1,5 @@
 {
-  "name": "emptyWang/umeng-message-sdk-php",
+  "name": "empty-wang/umeng-message-sdk-php",
   "description": "友盟消息推送SDK（PHP 纯粹 composer版 [ 网络请求基于 curl 包 ] ）",
   "type": "library",
   "license": "BSD-3-Clause",
